@@ -40,12 +40,12 @@ export default function App() {
       
       <div className="container" id="home">
         <header className="hero">
+          <div className="profile-img-container">
+            <img src="/profile.jpg" alt="Tikkada Appala Raju" className="profile-img" />
+          </div>
           <div className="availability-badge">
             <span className="pulse-dot"></span>
             Available for Opportunities
-          </div>
-          <div className="profile-img-container">
-            <img src="/profile.jpg" alt="Tikkada Appala Raju" className="profile-img" />
           </div>
           <h1>Tikkada Appala Raju</h1>
           <h2 className="typing-container">

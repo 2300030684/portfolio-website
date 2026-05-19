@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Outfit', sans-serif; }
 .container { position: relative; width: 90%; max-width: 1000px; margin: 0 auto; padding: 100px 0 60px; z-index: 1; flex: 1; }
 
 /* Hero Section */
-.hero { text-align: center; padding: 60px 20px 80px; animation: fadeInDown 1s ease-out; }
+.hero { display: flex; flex-direction: column; align-items: center; text-align: center; padding: 60px 20px 80px; animation: fadeInDown 1s ease-out; }
 
 /* Pulsing Badge */
 .availability-badge {
